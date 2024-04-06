@@ -99,7 +99,7 @@ elif page == 'Git Branching':
     """)
 elif page == 'Additional Resources':
     st.header("Additional Resources")
-    st.image('C:/Users/Elena/Documents/GitHub/Git Commands_streamlit/image.png', caption='Git Workflow Diagram')
+    st.image('./image.png', caption='Git Workflow Diagram')
     st.markdown("[Git Official Documentation](https://git-scm.com/doc)")
 elif page == 'AI Chatbot':
     st.header("AI Chatbot")
